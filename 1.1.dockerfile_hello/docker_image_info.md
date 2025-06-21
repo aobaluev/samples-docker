@@ -2,13 +2,13 @@
 
 Image name: samples-docker/1.1.dockerfile_hello:v1.0 
 
-Date run: Sat Jun 21 08:27:40 PM +07 2025 
+Date run: Sat Jun 21 11:56:30 PM +07 2025 
 
 
 ## docker images 
-```json
+```
 REPOSITORY                            TAG       IMAGE ID       CREATED       SIZE
-samples-docker/1.1.dockerfile_hello   v1.0      d390126c0992   11 days ago   117MB
+samples-docker/1.1.dockerfile_hello   v1.0      857d0dc1f804   11 days ago   117MB
 ```
 
 
@@ -16,7 +16,7 @@ samples-docker/1.1.dockerfile_hello   v1.0      d390126c0992   11 days ago   117
 ```json
 [
     {
-        "Id": "sha256:d390126c099212edffc9ab440e3e748e0beecc2444ca6e5d2360bf01f8558420",
+        "Id": "sha256:857d0dc1f804a5b4549e92f3ba906474bbed1a6d986c0ced04747e24bd645a12",
         "RepoTags": [
             "samples-docker/1.1.dockerfile_hello:v1.0"
         ],
@@ -32,7 +32,7 @@ samples-docker/1.1.dockerfile_hello   v1.0      d390126c0992   11 days ago   117
             ],
             "Cmd": [
                 "echo",
-                "Hello from image"
+                "Hello from docker"
             ],
             "ArgsEscaped": true
         },
@@ -54,7 +54,7 @@ samples-docker/1.1.dockerfile_hello   v1.0      d390126c0992   11 days ago   117
             ]
         },
         "Metadata": {
-            "LastTagTime": "2025-06-21T19:38:26.315778983+07:00"
+            "LastTagTime": "2025-06-21T23:35:48.534108098+07:00"
         }
     }
 ]
